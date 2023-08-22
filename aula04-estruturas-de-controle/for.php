@@ -12,7 +12,15 @@
         echo "<p>$i</p>";
     }
 
+    /*
+	    Repita o que foi feito com while:
+	    a) exiba os números em uma tabela HTML com cada número em uma linha
+	    b) exiba os números em uma tabela HTML com apenas uma linha (cada número em uma coluna)
+	    c) exiba a tabuada do número 2
+     */
+
     ?>
     
+         
 </body>
 </html>
