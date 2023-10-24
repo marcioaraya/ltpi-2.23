@@ -4,7 +4,7 @@
 echo '<html><body>';
 
 
-for($i = 0; $i <= 20; $i++) {
+for($i = 0; $i <= 50; $i++) {
     echo "<p>$i Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste</p>";
 }
    
