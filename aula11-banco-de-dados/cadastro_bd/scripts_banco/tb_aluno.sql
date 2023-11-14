@@ -1,3 +1,7 @@
+-- ATENÇÃO: Antes de importar este arquivo deve criar um "banco de dados"
+--          com o nome "curso"
+--          Deve selecionar este banco "curso" e usar a opção "importar" no PHPMyAdmin
+--
 -- phpMyAdmin SQL Dump
 -- version 4.7.7
 -- https://www.phpmyadmin.net/
@@ -21,7 +25,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `curso`
 --
-CREATE DATABASE `curso`;
+
 -- --------------------------------------------------------
 
 --

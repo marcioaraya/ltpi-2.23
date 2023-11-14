@@ -1,3 +1,7 @@
+-- ATENÇÃO: Antes de importar este arquivo deve criar um "banco de dados"
+--          com o nome "curso"
+--          Deve selecionar este banco "curso" e usar a opção "importar" no PHPMyAdmin
+--
 -- phpMyAdmin SQL Dump
 -- version 4.5.4.1deb2ubuntu2
 -- http://www.phpmyadmin.net
@@ -19,7 +23,7 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `curso`
 --
-CREATE DATABASE `curso`;
+
 -- --------------------------------------------------------
 
 --
@@ -38,10 +42,10 @@ CREATE TABLE `tb_curso` (
 --
 
 INSERT INTO `tb_curso` (`id_curso`, `ds_curso`, `nr_carga_horaria`, `dt_inicio`) VALUES
-(1, 'Analise Desenvolvimento de Sistemas', 0, NULL),
-(2, 'Gestao de Recursos Humanos', 0, NULL),
-(3, 'Gestao Comercial', 0, NULL),
-(4, 'Marketing', 0, NULL);
+(1, 'Análise e Desenvolvimento de Sistemas', 2000, '2014-02-01'),
+(2, 'Gestão de Recursos Humanos', 1500, '2007-02-01'),
+(3, 'Gestão Comercial', 2000, '2009-02-01'),
+(4, 'Marketing', 2000, '2009-02-01');
 
 --
 -- Índices de tabelas apagadas
@@ -61,7 +65,7 @@ ALTER TABLE `tb_curso`
 -- AUTO_INCREMENT de tabela `tb_curso`
 --
 ALTER TABLE `tb_curso`
-  MODIFY `id_curso` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_curso` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
